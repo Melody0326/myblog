@@ -1,0 +1,9 @@
+.lightbox-img{
+	max-width: 600px;
+	position: fixed;
+	background: #fff;
+	text-align: center;
+}
+.loading{
+	font-size: 28px;
+}

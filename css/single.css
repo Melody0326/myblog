@@ -1,0 +1,141 @@
+
+/**********header开始***********/
+#header{
+	height: 200px;
+	background:url(../img/bg2.jpg) no-repeat;
+	overflow: hidden;
+
+}
+
+/**********header结束***********/
+/**********content结束***********/
+#content img{
+	margin-top: 80px;
+}
+#content p{
+	color: #555;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/**********content结束***********/
+
+
+/**********written开始***********/
+
+#written h4{
+	line-height: 1.2em;
+    font-size: 1.2em;
+    text-transform: none;
+    color: #999;
+}
+
+#written p{
+	float:left;
+	color: #555;
+    font-size: 0.9em;
+    line-height: 1.8em; 
+    margin-right:800px;
+    margin-top: 30px;
+}
+
+/**********written结束***********/
+
+/**********comment开始***********/
+#comment h2{
+	font-size: 2em;
+    color: #555;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+    margin-top: 90px;
+}
+#comment label{
+	display: block;
+    color: #999;
+    font-weight: 300;
+}
+#comment input{
+	padding: 15px 20px;
+    width: 75%;
+    color: #999;
+    font-size: 13px;
+    border: none;
+    background: #fff;
+    outline: none;
+    display: block;
+    -webkit-appearance: none;
+}
+#comment textarea{
+    padding: 15px 30px;
+    width: 90%;
+    color: #999;
+    font-size: 13px;
+    outline: none;
+    height: 200px;
+    display: block;
+    border: none;
+    background: #fff;
+    -webkit-appearance: none;
+     
+}
+#comment input[type="submit"]{
+	padding: 15px 20px;
+    color: #fff;
+    background: #02D7FD;
+    font-size: 5px;
+    cursor: pointer;
+    width: 140px;
+    height: 55px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+/**********comment结束***********/
+
+
+
+#written .comment-list{
+    color: #555;
+    font-size: 15px;
+    margin: 20px;
+}
+#written .comment-list .comment-wrap{
+    border: 1px solid #D7CBC1;
+    margin: 5px 0px;
+}
+#written .comment-list .comment-title{
+    color: #333;
+    font: bold 12px/30px Arial;
+    text-indent: 5px;
+    margin: 10px 0px;
+    background: url(../img/comment-list-bg.jpg) repeat-x;
+}
+#written .comment-list .comment-info{
+    background-color: #E0DBD3;
+    color: #47381C;
+    font-size: 10px;
+    padding: 5px 10px;
+}
+#written .comment-list .comment-content{
+    min-height: 60px;
+}
+#written .comment-list .comment-user-photo{
+    display: inline-block;
+    margin: 5px 10px;
+    float: left;
+}
+#written .comment-list .comment-user-photo img{
+    border-radius: 50%;
+}
+#written .comment-list .comment-text{
+
+    margin-left: 70px;
+    font-size: 12px;
+
+}
+#written .comment-list .comment-text p{
+    font-size: 12px;
+    margin: 5px 0px;
+}

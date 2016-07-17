@@ -1,0 +1,10 @@
+ .gotop{
+	background: url(../img/to-top1.png) no-repeat;
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	cursor: pointer;
+	display: none;
+}

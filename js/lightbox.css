@@ -1,0 +1,24 @@
+ .lb-overlay{
+	background:rgb(31, 37, 44);
+	opacity: 0.74;
+    filter:alpha(opacity=74);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.lb-wrap{
+	position: fixed;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	
+}
+.lb-close{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
